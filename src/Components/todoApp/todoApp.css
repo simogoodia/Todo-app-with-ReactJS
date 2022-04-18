@@ -1,0 +1,7 @@
+.todo-app {
+    background-color: #fff;
+    padding: 1.25rem;
+    border-radius: .75rem;
+    overflow: hidden;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.4);
+}

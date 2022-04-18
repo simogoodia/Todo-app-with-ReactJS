@@ -1,0 +1,18 @@
+form {
+    position: relative;
+}
+form input {
+    padding: .5rem 1.6rem;
+    border: 1px solid #999;
+}
+form input:focus {
+    border: 1px solid #999;
+    outline: 0;
+}
+form i {
+    position: absolute;
+    left: 6px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #999;
+}

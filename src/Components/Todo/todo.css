@@ -1,0 +1,44 @@
+.todo-item:not(:first-of-type) {
+    border-top: 1px solid #d5d5d5;
+}
+.todo-item {
+    padding: 10px 0 0;
+    margin: .75rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.todo-item .todo-name {
+    display: flex;
+    align-items: center;
+}
+.todo-item .todo-name input {
+    margin-top: .5rem;
+    margin-right: .5rem;
+}
+.todo-item .todo-name label {
+    overflow-x: auto;
+    max-width: 120px;
+}
+.todo-item .todo-name label::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+.todo-item .editor .fa-trash-can,
+.todo-item .editor .fa-pen-to-square {
+    color: #fff;
+    padding: .25rem;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.todo-item .editor .fa-trash-can {
+    background-color: red;
+    margin-right: .5rem;
+}
+.todo-item .editor .fa-pen-to-square {
+    background-color: lightgreen;
+}
+.empty {
+    text-align: center;
+    display: block;
+}
